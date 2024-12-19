@@ -3,21 +3,56 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.content {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+a{
+    color: dimgray;
+}
+
 header{
-    background: white;
-    padding: 30px;
     margin-bottom: 10px;
 }
 
-.verse-generator{
+h1{
     text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: darkgray;
 }
 
-main{
-    background: white;
+form{
     padding: 30px;
-    border-right: 3px solid black;
+    background-color: white;
+    box-shadow: 0 20px 60px rgba(65,50,100, 0.08);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
 }
+
+.user-input{
+    padding: 15px;
+        border: 1px solid rgba(39, 33, 66, 0.5);
+        width: 85%;
+        font-size: 16px;
+        border-radius: 60px;
+        line-height: 20px;
+        color: #272044;
+}
+
+.submit{
+            margin-left: 10px;
+            background: rgba(8, 8, 8, 0.5);
+            color: whitesmoke;
+            border: none;
+            width: 140px;
+            font-size: 16px;
+            border-radius: 60px;
+            padding: 14px 24px;
+        }
 
 .user-input{
     background: whitesmoke;
@@ -34,4 +69,19 @@ main{
     border-radius: 30px ;
     max-width: 50% ;
     font-size: 15px;
+}
+
+.poem{
+    background: white;
+    padding: 30px;
+    color: darkgray;
+    font-size: 16px;
+    border-right: 3px solid black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: darkgray;
 }
