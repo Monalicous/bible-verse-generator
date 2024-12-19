@@ -1,0 +1,37 @@
+body{
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background: white;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.verse-generator{
+    text-align: center;
+}
+
+main{
+    background: white;
+    padding: 30px;
+    border-right: 3px solid black;
+}
+
+.user-input{
+    background: whitesmoke;
+    border: 0;
+    padding: 25px;
+    width: 60%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.submit{
+    padding: 20px;
+    border-radius: 30px ;
+    max-width: 50% ;
+    font-size: 15px;
+}
