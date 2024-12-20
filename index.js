@@ -25,9 +25,7 @@ function pullVerse(event) {
 
     mainElement.classList.remove("hidden");
     verseElement.innerHTML = "Generating your verse...🙏🏽";
-    console.log("Generating your verse");
-    console.log(`Prompt: ${prompt} `);
-    console.log(`Context: ${context} `);
+
 
     axios.get(apiUrl).then(showVerse);
 
