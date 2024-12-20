@@ -13,15 +13,20 @@
 <body>
     <div class="content">
         <h1>AI Bible Verse Generator</h1>
-        <form id="search-form">
-            <input type="text" placeholder="From which book would you like your verse" autofocus required
-                autocomplete="false" class="user-input" id="userInput" />
-            <input type="submit" class="submit">
-        </form>
+        <div class="form">
+            <form id="search-form">
+                <input type="text" placeholder="From which book would you like your verse" autofocus required
+                    autocomplete="false" class="user-input" id="userInput" />
+                <input type="submit" class="submit">
+            </form>
+            <br>
+            <small>i.e: Phillipians, Psalms, Proverbs ect...</small>
+        </div>
+
         </header>
 
-        <main>
-            <div id="verse"></div>
+        <main class="hidden">
+            <div id="verse" class="verse loading"></div>
         </main>
         <footer>
             Coded by SM Ntusi on <small><a href="">Github</a></small> hostest on <small><a href="">Netlify</a></small>
