@@ -5,24 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script> <!--typewrite link-->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script> <!--axios link-->
     <title>AI Bible Verse Generator</title>
 </head>
 
 <body>
     <div class="content">
         <h1>AI Bible Verse Generator</h1>
-        <header>
-            <form id="search-form">
-                <input type="text" placeholder="From which book would you like your verse" autofocus required
-                    autocomplete="false" class="user-input">
-                <input type="submit" class="submit">
-            </form>
+        <form id="search-form">
+            <input type="text" placeholder="From which book would you like your verse" autofocus required
+                autocomplete="false" class="user-input" id="userInput" />
+            <input type="submit" class="submit">
+        </form>
         </header>
 
-        <main class="poem">
-            <div id="verse">
-
-            </div>
+        <main>
+            <div id="verse"></div>
         </main>
         <footer>
             Coded by SM Ntusi on <small><a href="">Github</a></small> hostest on <small><a href="">Netlify</a></small>
